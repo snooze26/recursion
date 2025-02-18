@@ -1,3 +1,2 @@
 #!/usr/bin/env node
-
-console.log("hey baby");
+import { fibs } from "./fibonacci.js";
