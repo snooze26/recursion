@@ -35,5 +35,5 @@ export function fibsRec(num) {
         return sum.concat(result);
     }
 }    
-console.log(fibsRec(0)) //output should be 34 
+// console.log(fibsRec(0)) //output should be 34 
 
