@@ -25,9 +25,8 @@ export function fibsRec(num) {
     let sum;
     let result;
 
-    if (num == 1) {
+    if (num <= 1) {
         return [0];
-
     }else if (num == 2) {
         return [0, 1]
     }else {
@@ -35,10 +34,6 @@ export function fibsRec(num) {
         result = sum[sum.length -1] + sum[sum.length - 2];
         return sum.concat(result);
     }
-    
-    
-    // for (i == 3; i < num)
-
 }    
-console.log(fibsRec(10)) //output should be 34 
+console.log(fibsRec(0)) //output should be 34 
 
